@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            transform-origin: center;
+        }
+    </style>
+    <link href="proximity.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Proximity</h1>
+        <p>Your card will become a wrapper. Make sure to add background styles to the <code>.proximity-wrapper</code> class.</p>
+        <a href="/" class="card">
+            This is a card
+        </a>
+        <div href="/" class="card">
+            <button>A clickable button</button>
+        </div>
+        <div href="/" class="card">
+            <input type="text">
+        </div>
+    </div>
+    <script type="module">
+        import { Proximity } from './proximity.js'
+        Proximity({
+            elements: '.card'
+        })
+    </script>
+</body>
+</html>
