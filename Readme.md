@@ -1,5 +1,10 @@
 
+
+
+
 ### Proximity
+
+https://user-images.githubusercontent.com/2068815/130337929-2527b415-8e37-439e-be6f-c1edd3ea16bf.mp4
 
 Your card will become a wrapper. Make sure to add background styles to the ```.proximity-wrapper``` class.
 
